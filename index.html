@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS Only-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Title-->
+    <title>Conversor de RGB</title>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <h1>Conversor de RGB para Hexadecimal</h1>
+    </header>
+    <!--Main-->
+    <main>
+        <div class="container">
+            <h3>Insira os valores RGB abaixo:</h3>
+            <input type="number" id="red" min="0" max="255" placeholder="Red">
+            <input type="number" id="green" min="0" max="255" placeholder="Green">
+            <input type="number" id="blue" min="0" max="255" placeholder="Blue">
+            <button class="btn" onclick="convertToHex()">Convert</button>
+            <button class="btn" onclick="clearFields()">Clear</button><br>
+            <div id="result"></div>
+            <div id="color-sample"></div>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p> &copy; Jonatas Elieser Moreira</p>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
